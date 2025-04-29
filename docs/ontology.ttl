@@ -515,7 +515,7 @@ xsd:date rdf:type rdfs:Datatype .
 ###  http://www.co-ode.org/ontologies/ont.owl/restaurants/CheapRestaurant
 <http://www.co-ode.org/ontologies/ont.owl/restaurants/CheapRestaurant> rdf:type owl:Class ;
                                                                        rdfs:subClassOf <http://www.owl-ontologies.com/ns#Restaurant> ;
-                                                                       rdfs:comment "Represent restaurants with economic menu." ;
+                                                                       rdfs:comment "Represent restaurants with an economic menu" ;
                                                                        rdfs:label "Cheap restaurant" .
 
 
@@ -736,35 +736,35 @@ xsd:date rdf:type rdfs:Datatype .
 <http://www.owl-ontologies.com/ns#RestaurantAndalusian> rdf:type owl:Class ;
                                                         rdfs:subClassOf <http://www.owl-ontologies.com/ns#Restaurant> ;
                                                         rdfs:comment "A restaurant that serves regional cuisine of Andalusia, Spain. Notable dishes include gazpacho, fried fish, etc." ;
-                                                        rdfs:label "Andalusian" .
+                                                        rdfs:label "Andalusian Restaurant" .
 
 
 ###  http://www.owl-ontologies.com/ns#RestaurantItalian
 <http://www.owl-ontologies.com/ns#RestaurantItalian> rdf:type owl:Class ;
                                                      rdfs:subClassOf <http://www.owl-ontologies.com/ns#Restaurant> ;
                                                      rdfs:comment "A restaurant that serve the regional cuisine of Italy. Mainly pasta, cheese, and fresh vegetables." ;
-                                                     rdfs:label "Italian" .
+                                                     rdfs:label "Italian Restaurant" .
 
 
 ###  http://www.owl-ontologies.com/ns#RestaurantJapanese
 <http://www.owl-ontologies.com/ns#RestaurantJapanese> rdf:type owl:Class ;
                                                       rdfs:subClassOf <http://www.owl-ontologies.com/ns#Restaurant> ;
                                                       rdfs:comment "A restaurant that serve the regional cuisine of Japan is based on rice with miso soup and other dishes with an emphasis on seasonal ingredients." ;
-                                                      rdfs:label "Jappanese" .
+                                                      rdfs:label "Jappanese Restaurant" .
 
 
 ###  http://www.owl-ontologies.com/ns#RestaurantMediterranean
 <http://www.owl-ontologies.com/ns#RestaurantMediterranean> rdf:type owl:Class ;
                                                            rdfs:subClassOf <http://www.owl-ontologies.com/ns#Restaurant> ;
                                                            rdfs:comment "A restaurant that serves the Mediterranean cuisine, characterized by fresh, seasonal ingredients, olive oil, grains, and a focus on plant-based foods." ;
-                                                           rdfs:label "Mediterranean" .
+                                                           rdfs:label "Mediterranean Restaurant" .
 
 
 ###  http://www.owl-ontologies.com/ns#RestaurantMexican
 <http://www.owl-ontologies.com/ns#RestaurantMexican> rdf:type owl:Class ;
                                                      rdfs:subClassOf <http://www.owl-ontologies.com/ns#Restaurant> ;
                                                      rdfs:comment "A restaurant that serves food characterized by its use of a variety of spices, fresh ingredients, and traditional cooking methods" ;
-                                                     rdfs:label "Mexican" .
+                                                     rdfs:label "Mexican Restaurant" .
 
 
 ###  http://www.owl-ontologies.com/ns#Transport

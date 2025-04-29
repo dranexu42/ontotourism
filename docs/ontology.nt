@@ -431,7 +431,7 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # http://www.co-ode.org/ontologies/ont.owl/restaurants/CheapRestaurant
 <http://www.co-ode.org/ontologies/ont.owl/restaurants/CheapRestaurant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.co-ode.org/ontologies/ont.owl/restaurants/CheapRestaurant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/ns#Restaurant> .
-<http://www.co-ode.org/ontologies/ont.owl/restaurants/CheapRestaurant> <http://www.w3.org/2000/01/rdf-schema#comment> "Represent restaurants with economic menu." .
+<http://www.co-ode.org/ontologies/ont.owl/restaurants/CheapRestaurant> <http://www.w3.org/2000/01/rdf-schema#comment> "Represent restaurants with an economic menu" .
 <http://www.co-ode.org/ontologies/ont.owl/restaurants/CheapRestaurant> <http://www.w3.org/2000/01/rdf-schema#label> "Cheap restaurant" .
 # 
 # http://www.owl-ontologies.com/ns#Attraction
@@ -631,31 +631,31 @@ _:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <http://www.owl-ontologies.com/ns#RestaurantAndalusian> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.owl-ontologies.com/ns#RestaurantAndalusian> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/ns#Restaurant> .
 <http://www.owl-ontologies.com/ns#RestaurantAndalusian> <http://www.w3.org/2000/01/rdf-schema#comment> "A restaurant that serves regional cuisine of Andalusia, Spain. Notable dishes include gazpacho, fried fish, etc." .
-<http://www.owl-ontologies.com/ns#RestaurantAndalusian> <http://www.w3.org/2000/01/rdf-schema#label> "Andalusian" .
+<http://www.owl-ontologies.com/ns#RestaurantAndalusian> <http://www.w3.org/2000/01/rdf-schema#label> "Andalusian Restaurant" .
 # 
 # http://www.owl-ontologies.com/ns#RestaurantItalian
 <http://www.owl-ontologies.com/ns#RestaurantItalian> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.owl-ontologies.com/ns#RestaurantItalian> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/ns#Restaurant> .
 <http://www.owl-ontologies.com/ns#RestaurantItalian> <http://www.w3.org/2000/01/rdf-schema#comment> "A restaurant that serve the regional cuisine of Italy. Mainly pasta, cheese, and fresh vegetables." .
-<http://www.owl-ontologies.com/ns#RestaurantItalian> <http://www.w3.org/2000/01/rdf-schema#label> "Italian" .
+<http://www.owl-ontologies.com/ns#RestaurantItalian> <http://www.w3.org/2000/01/rdf-schema#label> "Italian Restaurant" .
 # 
 # http://www.owl-ontologies.com/ns#RestaurantJapanese
 <http://www.owl-ontologies.com/ns#RestaurantJapanese> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.owl-ontologies.com/ns#RestaurantJapanese> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/ns#Restaurant> .
 <http://www.owl-ontologies.com/ns#RestaurantJapanese> <http://www.w3.org/2000/01/rdf-schema#comment> "A restaurant that serve the regional cuisine of Japan is based on rice with miso soup and other dishes with an emphasis on seasonal ingredients." .
-<http://www.owl-ontologies.com/ns#RestaurantJapanese> <http://www.w3.org/2000/01/rdf-schema#label> "Jappanese" .
+<http://www.owl-ontologies.com/ns#RestaurantJapanese> <http://www.w3.org/2000/01/rdf-schema#label> "Jappanese Restaurant" .
 # 
 # http://www.owl-ontologies.com/ns#RestaurantMediterranean
 <http://www.owl-ontologies.com/ns#RestaurantMediterranean> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.owl-ontologies.com/ns#RestaurantMediterranean> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/ns#Restaurant> .
 <http://www.owl-ontologies.com/ns#RestaurantMediterranean> <http://www.w3.org/2000/01/rdf-schema#comment> "A restaurant that serves the Mediterranean cuisine, characterized by fresh, seasonal ingredients, olive oil, grains, and a focus on plant-based foods." .
-<http://www.owl-ontologies.com/ns#RestaurantMediterranean> <http://www.w3.org/2000/01/rdf-schema#label> "Mediterranean" .
+<http://www.owl-ontologies.com/ns#RestaurantMediterranean> <http://www.w3.org/2000/01/rdf-schema#label> "Mediterranean Restaurant" .
 # 
 # http://www.owl-ontologies.com/ns#RestaurantMexican
 <http://www.owl-ontologies.com/ns#RestaurantMexican> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.owl-ontologies.com/ns#RestaurantMexican> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.owl-ontologies.com/ns#Restaurant> .
 <http://www.owl-ontologies.com/ns#RestaurantMexican> <http://www.w3.org/2000/01/rdf-schema#comment> "A restaurant that serves food characterized by its use of a variety of spices, fresh ingredients, and traditional cooking methods" .
-<http://www.owl-ontologies.com/ns#RestaurantMexican> <http://www.w3.org/2000/01/rdf-schema#label> "Mexican" .
+<http://www.owl-ontologies.com/ns#RestaurantMexican> <http://www.w3.org/2000/01/rdf-schema#label> "Mexican Restaurant" .
 # 
 # http://www.owl-ontologies.com/ns#Transport
 <http://www.owl-ontologies.com/ns#Transport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
